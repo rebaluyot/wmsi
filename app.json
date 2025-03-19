@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "wmsi",
+    "slug": "wmsi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon_wms.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash_wms.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rebaluyot.wmsi"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon-wms.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.rebaluyot.wmsi"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3a42ce88-bc97-480f-aca2-0a6bc8f17694"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
+  }
+}
